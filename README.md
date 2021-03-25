@@ -1,16 +1,17 @@
-# fflutter_broadcast_demo
+# flutter_broadcast_demo
 
-A new Flutter application.
+flutter监听Android广播，达到混合开发目的.
+由于工业级设备，比如快递员手持扫码枪，当他扫码的时候我们需要获取到这个设备扫描的二维码信息。
+而市面上的设备大部分都是广播扫码或sdk扫码，所以需要监听Android广播需求
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Flutter **main.dart** **32 - 49行** 代码比较重要
 
-A few resources to get you started if this is your first Flutter project:
+Android **MainActiviy.java 20行到结束** 代码比较重要
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+可以看下代码注释
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+本demo监听了充电状态，如果拔掉充电器 ui则会刷新状态，插上也会刷新状态
+
+替换成自己的广播即可跟Android混合开发，也可以不用广播，大家自行决断
