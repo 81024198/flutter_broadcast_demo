@@ -6,11 +6,11 @@ flutter监听Android广播，达到混合开发目的.
 
 ## Getting Started
 
-Flutter **main.dart** **32 - 49行** 代码比较重要
+Flutter **main.dart** 
 
-Android **MainActiviy.java 20行到结束** 代码比较重要
+Android **MainActiviy.java** 
 
-可以看下代码注释
+可以看下代码注释，所有代码都在这两个类里了
 
 本demo监听了充电状态，如果拔掉充电器 ui则会刷新状态，插上也会刷新状态
 

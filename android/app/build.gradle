@@ -52,3 +52,7 @@ android {
 flutter {
     source '../..'
 }
+
+dependencies {
+    implementation files('libs/MobydataSdk1.0.jar')
+}
